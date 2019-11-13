@@ -43,7 +43,7 @@ public CharacterController control;
             #endif
         }
 
-        if (OVRInput.GetDown(OVRInput.Button.One))
+        if (Input.GetKeyDown(KeyCode.P) || OVRInput.GetDown(OVRInput.Button.One))
         {
             toogle = !toogle;
 
