@@ -15,7 +15,7 @@ public class simpleCollision : MonoBehaviour
     void Update()
     {
         
-        transform.Translate(speed*Time.deltaTime);
+       // transform.Translate(speed*Time.deltaTime);
 //        transform.position+=speed;
     }
 
@@ -23,13 +23,22 @@ public class simpleCollision : MonoBehaviour
   
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collided with box");
-    
+        
+   
 
     }
 
+    public bool collided = false;
     private void OnTriggerEnter(Collider other)
     {
-        speed=new Vector3(0,-1,0);
+        if (!collided)
+        {
+            Debug.Log("Triggered");
+            Rigidbody body = GameObject.Find("Cylinder").AddComponent<Rigidbody>();
+            body.mass = 1;
+            body.useGravity = true;
+            collided = true;
+        }
+
     }
 }
