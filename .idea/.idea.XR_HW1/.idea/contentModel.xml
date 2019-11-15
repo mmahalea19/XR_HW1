@@ -4,10 +4,19 @@
     <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_XR_HW1.1624131838.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ColllideTrigger.cs" t="Include" />
+        <e p="Free Low Poly Desert Pack" t="Include">
+          <e p="Materials" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Vertex_Color_Basic.shader" t="Include" />
+              <e p="Vertex_Color_Unlit.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="LightScript.cs" t="Include" />
         <e p="MoveLocation.cs" t="Include" />
         <e p="Oculus" t="Include">
@@ -676,7 +685,29 @@
             </e>
           </e>
         </e>
+        <e p="Plugins" t="Include">
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ExtensionLoader.cs" t="Include" />
+              <e p="UnityAPIWrapper.cs" t="Include" />
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="QuitScript.cs" t="Include" />
+        <e p="TheCloudCreator" t="Include">
+          <e p="Packages" t="Include">
+            <e p="000004 - Bodyboard" t="Include">
+              <e p="Demo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ResetObjects_00004.cs" t="Include" />
+                  <e p="ScreenShooter_000004.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="orbit.cs" t="Include" />
         <e p="simpleCollision.cs" t="Include" />
         <e p="startDroping.cs" t="Include" />

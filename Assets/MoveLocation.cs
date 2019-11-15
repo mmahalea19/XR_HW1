@@ -68,7 +68,8 @@ public CharacterController control;
                 Debug.Log(transform.position);
                 control.enabled = false;
                 control.transform.position = new Vector3(-20, 2, -20);
-          
+                          control.enabled = true;
+
                 //  transform.Translate(20, 0, 20,Space.Self);
 
             }
